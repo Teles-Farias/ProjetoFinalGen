@@ -7,10 +7,10 @@
 		<version>3.0.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.generation</groupId>
-	<artifactId>api-myblog</artifactId>
+	<groupId>com.gen</groupId>
+	<artifactId>ProjetoFinalGen</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api-myblog</name>
+	<name>ProjetoFinalGen</name>
 	<description>Projeto API Web - Blog de Postagens</description>
 	<properties>
 		<java.version>17</java.version>
@@ -45,7 +45,7 @@
 		<!-- Dependência do Banco de dados do Deploy - Postgres -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<artifactId>postgresql</artifactId>			
 		</dependency>
 		<!-- Dependência para Geração do Swagger -->
 		<dependency>
